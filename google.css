@@ -2,12 +2,12 @@
     html,body{
     height:100%;
     min-height:100%; 
-    width:100%
+    width:100%;
     min-width:100%;
     }
     
     .header{
-    margin-bottom:0;
+    margin-bottom:10px;
     height:10%; 
     width:100%;
     background-color:#fdfdfa;
@@ -15,20 +15,19 @@
 
     .logo{
     position:relative;  
-    left:33%;
+    left:32%;
     top:50%;
     width:30%;
     padding: 100px 100px 40px 100px;;
     }
     
     .search_bar input[type="text"]{
-
     position: relative;  
     left:30%;
     top:25%;
-    width:30%;
-    padding: 5px
-    border: none;
+    width:40%;
+    padding: 5px;
+    border-radius: 25px;
     font-size: 17px;
     
     background-color:rgb(241, 236, 236); 
