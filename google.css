@@ -43,6 +43,14 @@
         background-color: #111;
       }
 
+     .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15rem;
+      }
+
     .logo{
     position:relative;  
     left:32%;
@@ -51,18 +59,23 @@
     padding: 100px 100px 40px 100px;;
     }
     
-    .search_bar input[type="text"]{
+    .searchbar {{ background-image:url(male.png);   }
     position: relative;  
     left:30%;
     top:25%;
-    width:40%;
+    width:50%;
     padding: 5px;
     border-radius: 25px;
     font-size: 17px;
-    
-    background-color:rgb(241, 236, 236); 
-    color:grey;
-    }
+      }
+
+    .search-input {
+    width: 90%;
+    font-size: 1.6rem;
+    border-radius: 25px;
+      }
+      
+   
     </style>
 
     
