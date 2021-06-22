@@ -79,3 +79,8 @@
     font-size: 1.6rem;
     border-radius: 25px;
     }
+
+    .footer{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
