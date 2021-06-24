@@ -5,6 +5,15 @@ nav {
     padding: 30 px 10%;
 }
 
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30 px 10%;
+}
+
 li {
     display: inline-block;
     margin: 10px;
@@ -38,9 +47,9 @@ ul {
     padding: 30 px 10%;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30 px 10%;
+/* .wrapper {
+    min-height: calc(100vh - 50px);
 }
+footer {
+    height: 50px;
+} */
