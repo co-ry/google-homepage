@@ -1,17 +1,17 @@
-/* * {
+*{
     margin: 0;
     padding: 0;
-} */
+}
 
 /* img {
     display: block;
-    width: 100%;
-  }
+    width: 10%;
+  } */
   
 input {
     border: none;
     outline: none;
-  } */
+  }
 
 nav {
     display: flex;
@@ -93,8 +93,8 @@ ul {
     justify-content: space-between;
     width: 580px;
     border-radius: 30px;
-    border: 12px black;
-    background-color: black;
+    border: 20px rgb(252, 252, 252);
+    background-color: rgba(237, 237, 237, 0.489);
   }
 
 .search-input {
